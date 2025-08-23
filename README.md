@@ -2,6 +2,10 @@
 
 This repository contains the backend service for DSList, an application for organizing video games into ranked lists. It is built with Java and the Spring Boot framework, providing a RESTful API to manage games and game lists.
 
+[![Java](https://img.shields.io/badge/Java-21-blue.svg)](https://www.java.com)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Features
 
 *   Retrieve a list of all games with minimal details.
@@ -19,6 +23,7 @@ This repository contains the backend service for DSList, an application for orga
 *   **Maven** (for dependency management and build)
 *   **PostgreSQL** (for development and production database)
 *   **H2 Database** (for the test profile)
+*   **Docker** (For containerizing the development database)
 
 ## API Endpoints
 
